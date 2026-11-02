@@ -1,11 +1,11 @@
-# trainplat_jd001
+# batch_scheduling_throughput_consistency_check
 
 **找出大模型训练平台工程师·批处理调度与吞吐折中里互相矛盾的两处并排列出。**
 
-`trainplat_jd001` —— 在同一个输入里两两比对，检测大模型训练平台工程师·批处理调度与吞吐折中相关的矛盾表述，把冲突双方原样并排呈现
+`batch_scheduling_throughput_consistency_check` —— 在同一个输入里两两比对，检测大模型训练平台工程师·批处理调度与吞吐折中相关的矛盾表述，把冲突双方原样并排呈现
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`trainplat_jd001.py` 拷走就能用
+- 单文件，`batch_scheduling_throughput_consistency_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install geargarage-trainplat_jd001
+pip install geargarage-batch_scheduling_throughput_consistency_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-trainplat_jd001 --help
+batch_scheduling_throughput_consistency_check --help
 ```
 
-也可以不用安装，直接把 `trainplat_jd001.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `batch_scheduling_throughput_consistency_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ trainplat_jd001 --help
 ## 用法
 
 ```bash
-python trainplat_jd001.py --file input.txt
-python trainplat_jd001.py --text "示例内容"
-python trainplat_jd001.py --file input.txt --json
+python batch_scheduling_throughput_consistency_check.py --file input.txt
+python batch_scheduling_throughput_consistency_check.py --text "示例内容"
+python batch_scheduling_throughput_consistency_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python trainplat_jd001.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_trainplat_jd001.py
+python test_batch_scheduling_throughput_consistency_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_trainplat_jd001.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/geargarage/trainplat_jd001>
+- GitHub 仓库：<https://github.com/geargarage/batch_scheduling_throughput_consistency_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_trainplat_jd001.py
 geargarage 做大模型训练平台工程师·批处理调度与吞吐折中相关的问题，方向对标阿里巴巴的初级大模型训练平台工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://geargarage.github.io>
-- 仓库：<https://github.com/geargarage/trainplat_jd001>
+- 仓库：<https://github.com/geargarage/batch_scheduling_throughput_consistency_check>
 
 ## 许可
 
